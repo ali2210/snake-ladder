@@ -1,0 +1,964 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Fab{
+    position: relative;
+    top: 7pc;
+    background: aquamarine;
+}
+
+.emotion{
+    position: relative;
+    top: -418.5pc;
+    left: -35pc;
+    color : floralwhite;
+    border : none;
+    background : firebrick;
+
+}
+
+.PlayScreen{
+
+    position: relative;
+    background: firebrick;
+    width: 90pc;
+    height: 43pc;
+    top: -3pc;
+    visibility : hidden;
+}
+
+.Title0{
+    position: relative;
+    width: 7pc;
+    height: 3pc;
+    background : powderblue;
+    top : 7pc;
+    left : 1pc;
+}
+.Title1{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : 2.68pc;
+    left : 35pc;
+}
+.Title2{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -1.7pc;
+    left : 38pc;
+}
+.Title3{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -5.98pc;
+    left : 41pc;
+}
+.Title4{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -7.32pc;
+    left : 44pc;
+}
+
+.Title5{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -8.64pc;
+    left : 44pc;
+}
+.Title6{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -10pc;
+    left : 41pc;
+}
+.Title7{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -14.30pc;
+    left : 38pc;
+}
+.Title8{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -18.62pc;
+    left : 35pc;
+}
+.Title9{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -23pc;
+    left : 32pc;
+}
+
+.Title10{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -36.3pc;
+    left : 8pc;
+}
+
+.title{
+    color: darkslategrey;position: relative;top: 1pc;
+}
+
+.risktitle{
+    color: red;position: relative;top: 1pc;
+}
+
+.promotetitle{
+    color: mediumblue;position: relative;top: 1pc;
+}
+
+.Player-0{
+
+    position: relative;
+    width: 2pc;
+    height: 2pc;
+    background: forestgreen;
+    top: -436pc;
+    left: 81pc;
+    border-radius: 2pc;
+
+}
+
+.Player-1{
+
+    position: relative;
+    width: 2pc;
+    height: 2pc;
+    background: red;
+    top: -436pc;
+    left: 81pc;
+    border-radius: 2pc;
+
+}
+
+.MousePos{
+
+    position : relative;
+    top : -424pc;
+    color : whitesmoke;
+}
+
+.Title11{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -40.61pc;
+    left : 11pc;
+}
+.Title12{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -44.99pc;
+    left : 14pc;
+}
+.Title13{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -49.3pc;
+    left : 17pc;
+}
+
+.Title14{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -53.6pc;
+    left : 20pc;
+}
+.Title15{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -57.95pc;
+    left : 23pc;
+}
+.Title16{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -62.26pc;
+    left : 26pc;
+}
+.Title17{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -66.59pc;
+    left : 29pc;
+}
+.Title18{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -70.92pc;
+    left : 32pc;
+}
+
+.Title19{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -66.25pc;
+    left : 29pc;
+}
+.Title20{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -70.58pc;
+    left : 26pc;
+}
+.Title21{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -74.90pc;
+    left : 23pc;
+}
+
+.Title22{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -76.3pc;
+    left : 20pc;
+}
+.Title23{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -77.95pc;
+    left : 20pc;
+}
+.Title24{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -81.26pc;
+    left : 23pc;
+}
+.Title25{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -85.59pc;
+    left : 26pc;
+}
+.Title26{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -89.92pc;
+    left : 29pc;
+}
+
+
+.Title27{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -94.26pc;
+    left : 32pc;
+}
+
+.Title28{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -98.6pc;
+    left : 32pc;
+}
+.Title29{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -102.93pc;
+    left : 35pc;
+}
+.Title30{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -107.24pc;
+    left : 37pc;
+}
+
+.Title31{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -112.3pc;
+    left : 40pc;
+}
+.Title32{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -113.95pc;
+    left : 40pc;
+}
+.Title33{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -118.26pc;
+    left : 43pc;
+}
+.Title34{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -119.59pc;
+    left : 43pc;
+}
+.Title35{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -123.92pc;
+    left : 40pc;
+}
+
+.Title36{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -126pc;
+    left : 37pc;
+}
+
+.Title37{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -127.6pc;
+    left : 37pc;
+}
+.Title38{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -128.93pc;
+    left : 37pc;
+}
+.Title39{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -131.24pc;
+    left : 40pc;
+}
+
+.Title40{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -135.55pc;
+    left : 43pc;
+}
+.Title41{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -139.9pc;
+    left : 46pc;
+}
+.Title42{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -144.2pc;
+    left : 49pc;
+}
+.Title43{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -151.5pc;
+    left : 49pc;
+}
+.Title44{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -157.92pc;
+    left : 49pc;
+}
+
+
+.Title45{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -165pc;
+    left : 49pc;
+}
+.Title46{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -171.93pc;
+    left : 49pc;
+}
+.Title47{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -179.24pc;
+    left : 49pc;
+}
+
+.Title48{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -186.55pc;
+    left : 49pc;
+}
+.Title49{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -193.9pc;
+    left : 49pc;
+}
+.Title50{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -201.2pc;
+    left : 49pc;
+}
+.Title51{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -208.5pc;
+    left : 49pc;
+}
+.Title52{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -214.92pc;
+    left : 49pc;
+}
+
+.Title53{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -221.6pc;
+    left : 52pc;
+}
+.Title54{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -225.93pc;
+    left : 55pc;
+}
+.Title55{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -230.22pc;
+    left : 58pc;
+}
+
+.Title56{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -234.60pc;
+    left : 61pc;
+}
+.Title57{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -238.90pc;
+    left : 64pc;
+}
+.Title58{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -243.20pc;
+    left : 67pc;
+}
+.Title59{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -245.2pc;
+    left : 69pc;
+}
+.Title60{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -249.50pc;
+    left : 72pc;
+}
+
+
+.Title61{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -251.5pc;
+    left : 72pc;
+}
+.Title62{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -253.5pc;
+    left : 74pc;
+}
+.Title63{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -257.79pc;
+    left : 77pc;
+}
+
+.Title64{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -262.12pc;
+    left : 80pc;
+}
+.Title65{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -264.12pc;
+    left : 80pc;
+}
+.Title66{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -266.12pc;
+    left : 80pc;
+}
+.Title67{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -268.12pc;
+    left : 80pc;
+}
+.Title68{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -270.12pc;
+    left : 80pc;
+}
+
+
+
+.Title69{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -274.5pc;
+    left : 77pc;
+}
+.Title70{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -279.5pc;
+    left : 75pc;
+}
+.Title71{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -286.5pc;
+    left : 74pc;
+}
+
+.Title72{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -292.5pc;
+    left : 72pc;
+}
+.Title73{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -297.5pc;
+    left : 69pc;
+}
+.Title74{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -302.5pc;
+    left : 66pc;
+}
+.Title75{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -308.5pc;
+    left : 63pc;
+}
+.Title76{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -314.5pc;
+    left : 61pc;
+}
+
+.Title77{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -318.86pc;
+    left : 58pc;
+}
+.Title78{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -320.85pc;
+    left : 58pc;
+}
+
+.Title79{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -322.85pc;
+    left : 58pc;
+}
+.Title80{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -324.85pc;
+    left : 58pc;
+}
+.Title81{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -326.85pc;
+    left : 58pc;
+}
+.Title82{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -328.85pc;
+    left : 58pc;
+}
+.Title83{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -331.85pc;
+    left : 61pc;
+}
+.Title84{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -336.15pc;
+    left : 64pc;
+}
+
+.Title85{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -340.47pc;
+    left : 67pc;
+}
+.Title86{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -344.79pc;
+    left : 70pc;
+}
+
+.Title87{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -346.79pc;
+    left : 70pc;
+}
+.Title88{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -351.1pc;
+    left : 73pc;
+}
+
+.Title89{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -355.45pc;
+    left : 76pc;
+}
+.Title90{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -359.75pc;
+    left : 79pc;
+}
+.Title91{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -364.75pc;
+    left : 81pc;
+}
+.Title92{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -371.75pc;
+    left : 84pc;
+}
+.Title93{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -378.75pc;
+    left : 84pc;
+}
+
+.Title94{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -385.79pc;
+    left : 84pc;
+}
+.Title95{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -392.79pc;
+    left : 84pc;
+}
+
+.Title96{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -399.79pc;
+    left : 84pc;
+}
+.Title97{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -406.79pc;
+    left : 84pc;
+}
+.Title98{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -413.80pc;
+    left : 81pc;
+}
+.Title99{
+    position: relative;
+    width: 3pc;
+    height: 3pc;
+    background : floralwhite;
+    top : -420.8pc;
+    left : 81pc;
+}
+
+
+.Start{
+
+    position: relative;
+        width: 6pc;
+        height: 3pc;
+        background : powderblue;
+        top : -427.8pc;
+        left : 79pc;
+
+}
+
+.Dice{
+
+    position: relative;
+    width: 2pc;
+    height: 2pc;
+    color: floralwhite;
+    top: -412pc;
+    font-size: xx-large;
+    left: 6pc;
+
+}
